@@ -2,8 +2,8 @@
 <html lang="{{ page.lang }}">
 {{ partial('partial/head') }}
 <body>
-  <div id="container">aaa
-    {{ partial('partial/header') }}bbb
+  <div id="container">
+    {{ partial('partial/header') }}
     {{ body }}
     {{ partial('partial/footer') }}
   </div>

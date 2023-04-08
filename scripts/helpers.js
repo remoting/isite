@@ -6,8 +6,7 @@ var pathFn = require('path');
 var _ = require('lodash');
 var cheerio = require('cheerio');
 var lunr = require('lunr');
-
-var localizedPath = ['docs', 'gen', 'community', 'contribute'];
+ 
 
 function startsWith(str, start) {
   return str.substring(0, start.length) === start;
@@ -72,12 +71,11 @@ hexo.extend.helper.register('header_menu', function(className) {
   var lang = this.page.lang;
   var isEnglish = lang === 'en';
 
-  _.each(menu, function(path, title) {
-    if (!isEnglish && ~localizedPath.indexOf(title)) path = lang + path;
-
+  _.each(menu, function(path, title) { 
     if (path.startsWith("http://") || path.startsWith("https://")) {
       result += '<a href="' + self.url_for(path) + '" class="' + className + '-link" target="_blank">' + self.__('menu.' + title) + '</a>';
     } else {
+      debugger
       result += '<a href="' + self.url_for(path) + '" class="' + className + '-link">' + self.__('menu.' + title) + '</a>';
     }
   });

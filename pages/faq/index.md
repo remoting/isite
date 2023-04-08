@@ -1,8 +1,9 @@
 ---
-layout: index
+layout: page
 description: The fantastic ORM library for Golang aims to be developer friendly.
 subtitle: The fantastic ORM library for Golang
 comments: false
+title: sss
 ---
 
 * <i class="fa fa-rocket" aria-hidden="true"></i> 全功能 ORM

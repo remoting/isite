@@ -1,11 +1,8 @@
 menu:
   home: <i class="fa fa-home"></i>Home
-  docs: <i class="fa fa-book"></i>Docs
-  gen: <i class="fa fa-tools"></i>Gen
-  api: <i class="fa fa-cogs"></i>API
-  github: <i class="fa fa-github"></i>Github
-  community: <i class="fab fa-slack"></i>Community
-  contribute: <i class="fa fa-rocket"></i>Contribute
+  docs: <i class="fa fa-book"></i>Docs 
+  faq: <i class="fa fa-cogs"></i>Faq
+  about: <i class="fa fa-github"></i>About
   search: Search documents...
 
 index:
