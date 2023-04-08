@@ -1,9 +1,11 @@
 <nav id="mobile-nav">
   <div id="mobile-nav-inner">
     <ul id="mobile-nav-list">
+    <!--
       <li class="mobile-nav-item">
         <a href="/" class="mobile-nav-link" rel="external" target="_blank">{{ __("menu.home") }}</a>
       </li>
+    -->
       {{ header_menu('mobile-nav') }}
     </ul>
     {% if page.layout == 'page' %}

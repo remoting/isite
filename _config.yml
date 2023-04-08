@@ -8,7 +8,7 @@ subtitle: ' 跳板机 '
 description: ' 堡垒机 '
 keywords: ' 关键字 '
 author: remoting
-language: en
+language: zh_CN
 timezone: UTC
 source_dir: pages
 skip_render: [driver/**, plugin/**, text.html]

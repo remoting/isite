@@ -11,20 +11,22 @@
               <div class="article-content" itemprop="articleBody">
                 {{ page_anchor(page.content) }}
               </div>
+              <!--
               <footer class="article-footer">
                 <time class="article-footer-updated" datetime="{{ date_xml(page.updated) }}" itemprop="dateModified">{{ __('page.last_updated', date(page.updated)) }}</time>
                 {{ page_nav() }}
-              </footer> 
+              </footer>
+              -->
             </div>
-          </div>
-          <aside id="article-toc" role="navigation">
+          </div> 
+          <aside id="article-toc" role="navigation" style="display:none">
             <div id="article-toc-inner">
               <div id="sidebar-ad-wrapper" class="tagmanager_ad"></div>
               <strong class="sidebar-title">{{ __('page.contents') }}</strong>
               {{ toc(page.content, {list_number: false}) }}
               <a href="#" id="article-toc-top">{{ __('page.back_to_top') }}</a>
             </div>
-          </aside>
+          </aside> 
         </div>
       </article>
       {{ partial('partial/sidebar') }}
