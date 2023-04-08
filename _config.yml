@@ -9,7 +9,7 @@ description: ' 堡垒机 '
 keywords: ' 关键字 '
 author: remoting
 language: zh_CN
-timezone: UTC
+timezone: Asia/Shanghai
 source_dir: pages
 skip_render: [driver/**, plugin/**, text.html]
 
@@ -17,7 +17,7 @@ skip_render: [driver/**, plugin/**, text.html]
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://iops.keeyuu.com
 permalink: :year/:month/:day/:title/
-permalink_defaults:
+
 # Writing
 new_post_name: :title.md # File name of new posts
 external_link:
